@@ -13,7 +13,7 @@ const LoginScreen = () => {
             <View style={styles.inputwrapper}>
                 <AppTextInput placeholder="Enter your email"/></View>
             <View style={styles.inputwrapper}>
-                <AppTextInput placeholder="Enter your password"/></View>
+                <AppTextInput placeholder="Enter your password" secureTextEntry/></View>
         </SafeAreaView>
     )
 }
