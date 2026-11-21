@@ -7,5 +7,6 @@ export default function RootLayout() {
     headerShown : false
   }}>
     
+    <Stack.Screen name = "(Login)/index" />
   </Stack>;
 }
