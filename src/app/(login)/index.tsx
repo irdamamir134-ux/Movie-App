@@ -2,12 +2,16 @@ import { StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from 'react-native-safe-area-context';
 import Colors from '../../../constants/colors'; 
 import React from "react";
+import AppTextInput from "../../../component/AppTextInput";
 
 const LoginScreen = () => {
     return (
         <SafeAreaView style={{flex:1, backgroundColor: Colors.background}}>
             <View style={styles.container}>
                 <Text style={styles.text}>Streaming</Text>
+            </View>
+            <View style={styles.inputwrapper}>
+                <AppTextInput/>
             </View>
         </SafeAreaView>
     )
@@ -23,8 +27,12 @@ const styles = StyleSheet.create({
     },
     text: {
         fontWeight: "600",
-        color: Colors.text,
-        fontSize: 26,
+        color: "yellow",
+        fontSize: 50,
     },
+    inputwrapper: {
+        width: "100",
+        marginVertical: 26,
+    }
 
 })
