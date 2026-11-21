@@ -11,8 +11,9 @@ const LoginScreen = () => {
                 <Text style={styles.text}>Streaming</Text>
             </View>
             <View style={styles.inputwrapper}>
-                <AppTextInput/>
-            </View>
+                <AppTextInput placeholder="Enter your email"/></View>
+            <View style={styles.inputwrapper}>
+                <AppTextInput placeholder="Enter your password"/></View>
         </SafeAreaView>
     )
 }
@@ -29,10 +30,11 @@ const styles = StyleSheet.create({
         fontWeight: "600",
         color: Colors.text,
         fontSize: 50,
+        marginBottom: 40,
     },
     inputwrapper: {
-        width: "100",
-        marginVertical: 26,
+        width: "100%",
+        marginVertical: 4,
     }
 
 })

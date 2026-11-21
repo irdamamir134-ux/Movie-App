@@ -14,7 +14,7 @@ export default AppTextInput
 const styles = StyleSheet.create({
   wrapper: {
 
-    width: "390%",
+    width: "100%",
     borderWidth: 1,
     height: 50,
     borderColor: Colors.darkBorder,
