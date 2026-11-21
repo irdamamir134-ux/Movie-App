@@ -1,10 +1,11 @@
 import React from 'react';
-import { View, Text, StyleSheet } from 'react-native';
+import { View, Text, StyleSheet, TextInput } from 'react-native';
+import Colors from '../constants/colors'; 
 
 export default function AppTextInput() {
   return (
     <View style={styles.wrapper}>
-      <Text>AppTextInput</Text>
+      <TextInput style={styles.input}/>
     </View>
   );
 }
@@ -12,5 +13,21 @@ export default function AppTextInput() {
 const styles = StyleSheet.create({
   wrapper: {
 
-  },
+    width: "390%",
+    borderWidth: 1,
+    height: 50,
+    borderColor: Colors.darkBorder,
+    borderRadius: 8,
+    backgroundColor: "#292727f7",
+    paddingHorizontal: 10,
+    flexDirection: "row",
+    alignItems: "center",
+    justifyContent: "center",
+    marginBottom: 16,
+    },
+  input: {
+    flex: 1,
+    color: Colors.text,
+    
+  }
 });

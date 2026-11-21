@@ -27,7 +27,7 @@ const styles = StyleSheet.create({
     },
     text: {
         fontWeight: "600",
-        color: "yellow",
+        color: Colors.text,
         fontSize: 50,
     },
     inputwrapper: {
