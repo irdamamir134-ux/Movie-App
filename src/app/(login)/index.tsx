@@ -1,6 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 import { SafeAreaView } from 'react-native-safe-area-context';
-import Colors from '../../../constants/colors';
+import Colors from '../../../constants/colors'; 
 import React from "react";
 
 const LoginScreen = () => {
@@ -22,9 +22,9 @@ const styles = StyleSheet.create({
         justifyContent:"center",
     },
     text: {
-        fontWeight: "800",
+        fontWeight: "600",
         color: Colors.text,
-        fontSize: 30,
+        fontSize: 26,
     },
 
 })
