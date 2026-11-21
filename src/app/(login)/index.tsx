@@ -1,15 +1,16 @@
 import { StyleSheet, Text, View } from "react-native";
+import { SafeAreaView } from 'react-native-safe-area-context';
 import React from "react";
 
 const LoginScreen = () => {
     return (
-        <view>
+        <SafeAreaView>
             <text>LoginScreen</text>
-        </view>
+        </SafeAreaView>
     )
 }
 
 export default LoginScreen
 const style = StyleSheet.create({
-    
+
 })
