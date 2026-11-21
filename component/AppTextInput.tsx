@@ -1,19 +1,24 @@
-import React from 'react';
-import { View, Text, StyleSheet, TextInput, TextInputProps } from 'react-native';
-import Colors from '../constants/colors'; 
+import React from "react";
+import {
+  View,
+  Text,
+  StyleSheet,
+  TextInput,
+  TextInputProps,
+} from "react-native";
+import Colors from "../constants/colors";
 
-const AppTextInput: React.FC<TextInputProps> = ({...props}) => {
+const AppTextInput: React.FC<TextInputProps> = ({ ...props }) => {
   return (
     <View style={styles.wrapper}>
-      <TextInput {...props} style={styles.input}/>
+      <TextInput {...props} style={styles.input} />
     </View>
   );
-}
+};
 
-export default AppTextInput
+export default AppTextInput;
 const styles = StyleSheet.create({
   wrapper: {
-
     width: "100%",
     borderWidth: 1,
     height: 50,
@@ -25,10 +30,9 @@ const styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     marginBottom: 16,
-    },
+  },
   input: {
     flex: 1,
     color: Colors.text,
-
-  }
+  },
 });
