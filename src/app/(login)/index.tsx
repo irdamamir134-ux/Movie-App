@@ -18,7 +18,7 @@ const LoginScreen = () => {
         <AppTextInput placeholder="Password" secureTextEntry />
         <Text style={styles.forget}>Forgot Password</Text>
       </View>
-        <AppButton style={{backgroundColor: Colors.primary, width: "100%", height: 50}}title="login" />    
+        <AppButton style={{backgroundColor: Colors.primary, width: "100%", height: 50}}title="Login" />    
         <Text style={styles.createaccount}>Haven't signed up yet? 
           <Text onPress={()=>router.push("/sign-up")}style={{color: Colors.primary}}> Create Account</Text></Text> 
       </View>  

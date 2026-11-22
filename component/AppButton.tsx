@@ -23,7 +23,7 @@ const AppButton = ({ title, icon, style, onPress }: AppButtonProps) => {
       style={[styles.wrapper, style]}
     >
       <View style={{ flexDirection: "row" }}>
-        <Text style={{ color: "black", fontWeight: "600", marginRight: 6 }}>
+        <Text style={{ color: Colors.text, fontWeight: "600", marginRight: 6 }}>
           {title}
         </Text>
         {icon}
