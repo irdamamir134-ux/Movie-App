@@ -21,7 +21,7 @@ const LoginScreen = () => {
       </View>
 
       <View>
-        <AppButton  />
+        <AppButton style={{backgroundColor: Colors.primary}}title="login" />
       </View>
     </SafeAreaView>
   );
