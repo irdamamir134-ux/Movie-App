@@ -16,7 +16,9 @@ const LoginScreen = () => {
       <View style={styles.inputwrapper}>
         <AppTextInput placeholder="Enter your password" secureTextEntry />
       </View>
-        <AppButton style={{backgroundColor: Colors.primary, width: "100%", height: 50}}title="login" />     
+        <AppButton style={{backgroundColor: Colors.primary, width: "100%", height: 50}}title="login" />    
+        <Text style={styles.createaccount}>Haven't signed up yet? 
+          <Text style={{color: Colors.primary}}> Create Account</Text></Text> 
       </View>  
     </SafeAreaView>
   );
@@ -40,4 +42,9 @@ const styles = StyleSheet.create({
     width: "100%",
     marginVertical: 4,
   },
+  createaccount: {
+    color: Colors.gray,
+    fontSize: 14,
+    marginTop: 14,
+  }
 });
