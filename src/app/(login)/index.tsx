@@ -10,19 +10,14 @@ const LoginScreen = () => {
     <SafeAreaView style={{ flex: 1, backgroundColor: Colors.background }}>
       <View style={styles.container}>
         <Text style={styles.text}>Ready to stream?</Text>
-      </View>
-
-      <View style={styles.inputwrapper}>
+        <View style={styles.inputwrapper}>
         <AppTextInput placeholder="Enter your email" />
       </View>
-
       <View style={styles.inputwrapper}>
         <AppTextInput placeholder="Enter your password" secureTextEntry />
       </View>
-
-      <View>
-        <AppButton style={{backgroundColor: Colors.primary}}title="login" />
-      </View>
+        <AppButton style={{backgroundColor: Colors.primary, width: "100%", height: 50}}title="login" />     
+      </View>  
     </SafeAreaView>
   );
 };

@@ -37,14 +37,13 @@ const styles = StyleSheet.create({
   wrapper: {
     width: "100%",
     borderWidth: 1,
-    height: 45,
+    height: 50,
     borderColor: Colors.darkBorder,
     borderRadius: 50,
-    backgroundColor: "#FCC252",
+    backgroundColor: "#2F78FF",
     paddingHorizontal: 10,
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center",
-    marginRight: 14,
   },
 });
